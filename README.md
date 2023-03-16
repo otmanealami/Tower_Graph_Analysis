@@ -1,7 +1,9 @@
 # Context
 City dwellers usually move in the city according to predictable patterns, within well defined areas and using quite repetitive routes (everyday home to work travels, for instance). 
 This brings the question of what gives a city its unity if people are moving only within small fragmented parts of it. In particular, can we unveil the existence of sub-cities that concentrate movements within their boundaries?
+<br>
 In this project, we are particularly interested in exploring how movement patterns within the city fragments a city into “bubbles” or communities. We will use a dataset that contains 346,638 data points representing the approximate locations of the home and work places for specific anonymised dwellers from the city of Santiago de Chile.
+<br>
 Through the building of a network and subsequent analyses, the aim is to describe the community structure that underlies movement patterns in the city.
 
 

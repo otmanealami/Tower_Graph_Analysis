@@ -19,21 +19,21 @@ Through the building of a network and subsequent analyses, the aim is to describ
 
 ## Task 1 :
 
-Starting from Home_Work.csv, We built a network where nodes are mobile phone towers, and they are connected through people moving between them.We Constructed  the following networks:
-a) Undirected and unweighted network
-b) Directed and unweighted network
-c) Undirected weighted network
-d) Directed and weighted network
+Starting from Home_Work.csv, We built a network where nodes are mobile phone towers, and they are connected through people moving between them.We Constructed  the following networks:\
+a) Undirected and unweighted network\
+b) Directed and unweighted network\
+c) Undirected weighted network\
+d) Directed and weighted network\
 
 We then discussed the differences between each of the above networks and the advantages or flaws of each network if we want to assess the spreading of a disease through these networks.
 
 
 ## Task 2:
-For a network chosen from the Task1 we :
+For a network chosen from the Task1 we :\
 a) Computed the community detection algorithm  to obtain communities from the network for  5 different “Resolution” values and we showed how each value is influencing the resulting community structure (number of communities, average and standard deviation on the size of communities,
-among others).
-b) Compared the communities we have found with the ones available in Communities.csv. We then Discussed any influence that can be attributed to the particular parameter value or the network used (directed/undirected weighted/unweighted).
-c) Built a map that displays each node (the towers) at their corresponding geographical location, and in which each community is denoted by a different colour.
+among others).\
+b) Compared the communities we have found with the ones available in Communities.csv. We then Discussed any influence that can be attributed to the particular parameter value or the network used (directed/undirected weighted/unweighted).\
+c) Built a map that displays each node (the towers) at their corresponding geographical location, and in which each community is denoted by a different colour.\
 
 
 ## Task 3:

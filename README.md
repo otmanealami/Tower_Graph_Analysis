@@ -13,7 +13,7 @@ Through the building of a network and subsequent analyses, the aim is to describ
 
 1. The authors processed this data to create two main files:
 1. Home_Work.csv: Each row contains both home and work locations of a particular person. Home and work locations are just approximate, as they correspond to the location of the closest cell phone tower to which the person connects.
-2. Communities.csv: The authors of [1] created a network from the Home_Work.csv dataset and then applied community detection algorithms and discovered that the network can be divided into six different communities or sub-networks. This file contains the communities, where each cell phone tower contains a label of the community it belongs to.
+2. Communities.csv: A network was created previously in litterature, from the Home_Work.csv dataset and by applying community detection algorithms.The network can be divided into six different communities or sub-networks. This file contains the communities, where each cell phone tower contains a label of the community it belongs to.
 
 ## Overview 
 

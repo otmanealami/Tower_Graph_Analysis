@@ -7,34 +7,34 @@ In this project, we are particularly interested in exploring how movement patter
 Through the building of a network and subsequent analyses, the aim is to describe the community structure that underlies movement patterns in the city.
 
 
-# Sections
 
-## Table of Contents
- * Task 0 : Data Exploration
+## Dataset:
+ The data was obtained from anonymised mobile phone connections to the closest mobile phone towers
 
-    * Section 0.1 : Construncting graph componnents
- 
-<br>
- 
-* Task 1 : Graph Building
-    * Section 1.1 : Undirected and Unweighted network 
-    * Section 1.2 : Directed   and Unweighted network 
-    * Section 1.3:  Undirected and Weighted network 
-    * Section 1.4   Directed   and Weighted network 
-    
-<br>
+1. The authors processed this data to create two main files:
+1. Home_Work.csv: Each row contains both home and work locations of a particular person. Home and work locations are just approximate, as they correspond to the location of the closest cell phone tower to which the person connects.
+2. Communities.csv: The authors of [1] created a network from the Home_Work.csv dataset and then applied community detection algorithms and discovered that the network can be divided into six different communities or sub-networks. This file contains the communities, where each cell phone tower contains a label of the community it belongs to.
 
-* Task 2 : Community Detection Algorithm
-    * Section 2.1 :  Resolution=10
-    * Section 2.2 :  Resolution=15
-    * Section 2.3 :  Resolution=20
-    * Section 2.4 :  Resolution=25
-    * Section 2.5 :  Resolution=30
-   
-<br>
+## Overview 
 
-* Task 3 : Community Dependencies
-    * Section 3.1 :  Used Metrics
-    * Section 3.2 :  Summary and stats
+## Task 1 :
+
+Starting from Home_Work.csv, We built a network where nodes are mobile phone towers, and they are connected through people moving between them.We Constructed  the following networks:
+a) Undirected and unweighted network
+b) Directed and unweighted network
+c) Undirected weighted network
+d) Directed and weighted network
+
+We then discussed the differences between each of the above networks and the advantages or flaws of each network if we want to assess the spreading of a disease through these networks.
 
 
+## Task 2:
+For a network chosen from the Task1 we :
+a) Computed the community detection algorithm  to obtain communities from the network for  5 different “Resolution” values and we showed how each value is influencing the resulting community structure (number of communities, average and standard deviation on the size of communities,
+among others).
+b) Compared the communities we have found with the ones available in Communities.csv. We then Discussed any influence that can be attributed to the particular parameter value or the network used (directed/undirected weighted/unweighted).
+c) Built a map that displays each node (the towers) at their corresponding geographical location, and in which each community is denoted by a different colour.
+
+
+## Task 3:
+For this part we used two different centrality measures to explore how important each node (tower) is within the city. We put our findings  in Contrast with the communities found in Task 2 and  Compared the distribution of centrality to the geographical location of the nodes.

@@ -8,7 +8,7 @@ Through the building of a network and subsequent analyses, the aim is to describ
 
 
 
-## Dataset:
+## Dataset
  The data was obtained from anonymised mobile phone connections to the closest mobile phone towers
 
 1. The authors processed this data to create two main files:
@@ -17,7 +17,7 @@ Through the building of a network and subsequent analyses, the aim is to describ
 
 ## Overview 
 
-## Task 1 :
+## Task 1 
 
 Starting from Home_Work.csv, We built a network where nodes are mobile phone towers, and they are connected through people moving between them.We Constructed  the following networks:\
 a) Undirected and unweighted network\
@@ -28,7 +28,7 @@ d) Directed and weighted network
 We then discussed the differences between each of the above networks and the advantages or flaws of each network if we want to assess the spreading of a disease through these networks.
 
 
-## Task 2:
+## Task 2
 For a network chosen from the Task1 we :\
 a) Computed the community detection algorithm  to obtain communities from the network for  5 different “Resolution” values and we showed how each value is influencing the resulting community structure (number of communities, average and standard deviation on the size of communities,
 among others).\
@@ -36,5 +36,5 @@ b) Compared the communities we have found with the ones available in Communities
 c) Built a map that displays each node (the towers) at their corresponding geographical location, and in which each community is denoted by a different colour.
 
 
-## Task 3:
+## Task 3
 For this part we used two different centrality measures to explore how important each node (tower) is within the city. We put our findings  in Contrast with the communities found in Task 2 and  Compared the distribution of centrality to the geographical location of the nodes.
